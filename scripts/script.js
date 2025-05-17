@@ -50,4 +50,3 @@ function setActiveButton(buttonsArray, theme) {
     autoButton.setAttribute('disabled', true);
   }
 }
-*/

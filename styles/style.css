@@ -112,16 +112,12 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--base-color);
+  pointer-events: none
 }
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--hover-color);
   cursor: pointer;
-}
-
-.header__theme-menu-button:focus {
-  outline: none;
-  border-bottom: 1px solid var(--base-color);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -150,7 +146,7 @@
   line-height: 82.5%;
 }
 
-.title__decoration {
+.title-decor {
   background-color: var(--accent-color);
   color: var(--text-decoration);
 }

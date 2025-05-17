@@ -1,4 +1,4 @@
-.page.theme-dark {
+:root.theme-dark {
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --accent-color: #FF0070;
@@ -9,23 +9,6 @@
   --title-shadow: #FF0070;
 }
 
-.page.theme-dark .header__rec {
+.theme-dark .header__rec {
   display: block;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png);
-    --accent-color: #FF0070;
-    --base-color: var(--accent-color);
-    --text-color: #F1B2CE;
-    --text-decoration: var(--bg-color);
-    --title-color: #DB00FF;
-    --title-shadow: #FF0070;
-  }
-
-  .header__rec {
-    display: block;
-  }
 }

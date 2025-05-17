@@ -5,6 +5,7 @@
   --base-color: var(--accent-color);
   --text-color: #F1B2CE;
   --text-decoration: var(--bg-color);
+  --hover-color: rgba(255, 0, 112, 0.4);
   --title-color: #DB00FF;
   --title-shadow: #FF0070;
 }

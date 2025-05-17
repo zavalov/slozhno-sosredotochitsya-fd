@@ -5,6 +5,7 @@
   --base-color: var(--text-color);
   --text-color: #353430;
   --text-decoration: var(--text-color);
+  --hover-color: rgba(50, 49, 45, 0.4);
   --title-color: #FFC2E6;
   --title-shadow: #FF0070;
 }
@@ -21,6 +22,7 @@
     --base-color: var(--text-color);
     --text-color: #353430;
     --text-decoration: var(--text-color);
+    --hover-color: rgba(50, 49, 45, 0.4);
     --title-color: #FFC2E6;
     --title-shadow: #FF0070;
   }
